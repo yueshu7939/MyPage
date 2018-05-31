@@ -1,0 +1,160 @@
+body {
+
+    -webkit-aminmation: Z 10s infinite;
+    animation-timing-function: ease-in-out;
+    animation: Z 10s infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes Z {
+    0% {
+        background: #e5c63d;
+    }
+    20% {
+        background: #c2db34;
+    }
+    40% {
+        background: #34db8d;
+    }
+    60% {
+        background: #34b4db;
+    }
+    75% {
+        background: #a89ed6;
+    }
+    85% {
+        background: #d69ea9;
+    }
+    100% {
+        background: #e5c63d;
+    }
+}
+
+
+@keyframes Z {
+    0% {
+        background: #e5c63d;
+    }
+    20% {
+        background: #c2db34;
+    }
+    40% {
+        background: #34db8d;
+    }
+    60% {
+        background: #34b4db;
+    }
+    75% {
+        background: #a89ed6;
+    }
+    85% {
+        background: #d69ea9;
+    }
+    100% {
+        background: #e5c63d;
+    }
+}
+
+@-webkit-keyframes S {
+    20% {
+        background: #e54766;
+    }
+    60% {
+        background: #27ad33;
+    }
+    80% {
+        background: #4f5899;
+    }
+    0% {
+        background: #34b4db;
+    }
+    40% {
+        background: #e57e09;
+    }
+    100% {
+        background: #d69ea9;
+    }
+    90% {
+        background: #e5c63d;
+    }
+}
+
+
+@keyframes S {
+    20% {
+        background: #e54766;
+    }
+    60% {
+        background: #27ad33;
+    }
+    80% {
+        background: #4f5899;
+    }
+    0% {
+        background: #34b4db;
+    }
+    40% {
+        background: #e57e09;
+    }
+    100% {
+        background: #d69ea9;
+    }
+    90% {
+        background: #e5c63d;
+    }
+}
+
+.ball {
+    width: 75px;
+    height: 75px;
+    background: #284c18;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    position: absolute;
+
+    animation: X 2s linear 0s infinite alternate, Y 2.5s linear 0s infinite alternate,
+    S 12s infinite;
+}
+
+
+@keyframes X {
+    0% {
+        left: 0%;
+        filter: blur(20px);
+    }
+    100% {
+        left: 95%;
+        filter: blur(0);
+    }
+}
+
+@keyframes Y {
+    0% {
+        top: 0%;
+        filter: blur(0);
+    }
+    100% {
+        top: 90%;
+        filter: blur(20px);
+    }
+}
+
+
+#clock {
+    height: 100px;
+    width: 800px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: auto;
+    font-family: courier, monospace;
+    text-align: center;
+    color: white;
+    font-size: 600%;
+}
+
+

@@ -1,0 +1,16 @@
+# Site settings
+title: Yue Shu's Portfolio
+description: A portfolio with my featured projects
+
+username: Yue Shu
+user_description: Hello! I'm Yue Shu, a recent graduate of MSIT program at Bentley University with experience developing creative solutions using art and computer science. Proficient in an array of scripting languages, multimedia Web tools and back-end databases. Passionate about Machine Learning and cloud computing, a true believer in Agile development.
+user_title: Front-End Developer
+email: yueshu7939@gmail.com
+github_username:  yueshu7939
+gplus_username:  yueshu7939
+
+# Google-analytics
+google-analytics:
+  id: ""
+
+exclude: ['package.json', 'src' , 'node_modules']
